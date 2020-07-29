@@ -26,6 +26,6 @@ public class LoginTestAMPS {
     public void loginAMPS() {
         LoginPage.loginPage(driver);
         LoginPage loginPage = new LoginPage();
-        loginPage.loginToAMPS("krishnam", "tur0god#ma58");
+        loginPage.loginToAMPS("", "");
     }
 }

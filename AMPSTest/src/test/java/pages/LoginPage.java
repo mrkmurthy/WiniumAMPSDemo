@@ -14,7 +14,7 @@ public class LoginPage {
     WebElement userName = driver.findElement (By.xpath( "/*[ @Name = 'Auto/Mate Support Tool']//*[@ClassName = 'Edit' and @Name = 'User name:']"));
     WebElement password = driver.findElement (By.xpath( "/*[ @Name = 'Auto/Mate Support Tool']//*[@ClassName = 'Edit' and @Name = 'Password:']"));
     WebElement okButton = driver.findElement (By.name("OK"));
-    public void  loginToAMPS(String uName, String pWord) throws InterruptedException {
+    public void  loginToAMPS(String uName, String pWord) {
         userName.clear();
         userName.sendKeys(uName);
         password.sendKeys(pWord);

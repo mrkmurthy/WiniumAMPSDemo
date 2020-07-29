@@ -23,9 +23,9 @@ public class LoginTestAMPS {
 //        driver.quit();
     }
     @Test
-    public void loginAMPS() throws InterruptedException {
+    public void loginAMPS() {
         LoginPage.loginPage(driver);
         LoginPage loginPage = new LoginPage();
-        loginPage.loginToAMPS("USERNAME", "PASSWORD");
+        loginPage.loginToAMPS("krishnam", "tur0god#ma58");
     }
 }
